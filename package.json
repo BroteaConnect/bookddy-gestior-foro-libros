@@ -1,0 +1,16 @@
+{
+  "name": "bookddy-gestior-foro-libros",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "node scripts/build-stamp.mjs && node --test src/locales/*.test.mjs && astro build",
+    "prebuild": "node scripts/build-stamp.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.0.0"
+  }
+}
