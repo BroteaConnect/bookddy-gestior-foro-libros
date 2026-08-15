@@ -1,0 +1,5 @@
+{
+  "extends": "astro/tsconfigs/base",
+  "//": "SEED file: `brotea quality sync` drops it only if the app has no tsconfig, and from then on it belongs to the app (it is never overwritten). It starts at `base`, not at `strict`, on purpose: adopting type checking in an app that never had it with the bar set high leaves it red on day one and the gate ends up disabled. Moving up to `strict` is an app PR, when the time comes.",
+  "exclude": ["dist", ".astro", "wt-*"]
+}
