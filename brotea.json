@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "composer": "0.5.0",
+  "composer": "0.7.0",
   "stack": "astro",
   "project": {
     "slug": "bookddy-gestior-foro-libros",
@@ -22,13 +22,13 @@
   },
   "theme": {
     "name": "brotea",
-    "version": "2.0.0"
+    "version": "2.2.0"
   },
   "runtime": {
     "port": 80,
     "health": "/"
   },
   "quality": {
-    "version": "1.4.1"
+    "version": "1.5.0"
   }
 }
